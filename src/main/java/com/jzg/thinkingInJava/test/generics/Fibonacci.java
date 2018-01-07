@@ -35,6 +35,7 @@ public class Fibonacci implements Generator<Integer> {
 	}
 
 	public static void main(String[] args) {
+		//修改master分支
 		Fibonacci fibonacci = new Fibonacci();
 		System.out.println("18的菲波那切数列:" + fibonacci.getFibonacci(18) + "."
 				+ "getFibonacci方法被调用过的次数" + fibonacci.allCount);
