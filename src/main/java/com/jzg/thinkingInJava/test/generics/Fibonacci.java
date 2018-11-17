@@ -35,7 +35,9 @@ public class Fibonacci implements Generator<Integer> {
 	}
 
 	public static void main(String[] args) {
-		//修改master分支
+ 
+	//提交代码测试，与主分支冲突的代码  此处 合并有冲突的 内容   master修改master分支
+
 		Fibonacci fibonacci = new Fibonacci();
 		System.out.println("18的菲波那切数列:" + fibonacci.getFibonacci(18) + "."
 				+ "getFibonacci方法被调用过的次数" + fibonacci.allCount);
